@@ -1,12 +1,16 @@
 package com.exercises;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        DailyTemperatures dailyTemperatures = new DailyTemperatures();
-        int[] arr = {30,38,30,36,35,40,28};
-        System.out.println(dailyTemperatures.dailyTemperatures(arr));
+
+
+        LargestRectangleInHistogram largestRectangleInHistogram = new LargestRectangleInHistogram();
+        int[] heights = {7,1,7,2,2,4};
+        largestRectangleInHistogram.largestRectangleArea(heights);
     }
 
 
