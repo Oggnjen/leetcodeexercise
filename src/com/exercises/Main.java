@@ -6,10 +6,9 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        ThreeSum threeSum = new ThreeSum();
-        int[] arr = {-1,0,1,2,-1,-4};
-        System.out.println(threeSum.threeSum(arr));
-
+        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
+        int[] arr = {1,7,2,5,4,7,3,6};
+        System.out.println(containerWithMostWater.maxArea(arr));
     }
 
 
