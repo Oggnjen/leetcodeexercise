@@ -6,9 +6,9 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        TrappingRainWater trappingRainWater = new TrappingRainWater();
-        int[] arr = {0,1,0,2,1,0,1,3,2,1,2,1};
-        System.out.println(trappingRainWater.trap(arr));
+        BinarySearch binarySearch = new BinarySearch();
+        int[] arr = {-1,0,2,4,6,8};
+        System.out.println(binarySearch.search(arr, 3));
     }
 
 
