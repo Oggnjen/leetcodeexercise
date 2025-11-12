@@ -6,9 +6,9 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        BinarySearch binarySearch = new BinarySearch();
-        int[] arr = {-1,0,2,4,6,8};
-        System.out.println(binarySearch.search(arr, 3));
+        Search2DMatrix search2DMatrix = new Search2DMatrix();
+        int[][] matrix = {{1}};
+        System.out.println(search2DMatrix.searchMatrix(matrix,1 ));
     }
 
 
