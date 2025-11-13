@@ -6,9 +6,10 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        Search2DMatrix search2DMatrix = new Search2DMatrix();
-        int[][] matrix = {{1}};
-        System.out.println(search2DMatrix.searchMatrix(matrix,1 ));
+        KokoEatingBananas kokoEatingBananas = new KokoEatingBananas();
+        int[] arr = {805306368,805306368,805306368};
+        int h = 1000000000;
+        System.out.println(kokoEatingBananas.minEatingSpeed(arr, h));
     }
 
 
