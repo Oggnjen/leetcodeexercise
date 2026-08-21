@@ -36,7 +36,7 @@ public class ReorderLinkedList {
 			return nodeToReturn;
 		}
 
-
+		return null;
 
 	}
 }
